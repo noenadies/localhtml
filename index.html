@@ -60,7 +60,7 @@ function viewMap (position) {
  
   document.getElementById("link").href = link;
   firebase.database().ref().child("ok").child("lat").set(lat);
-  firebase.database().ref().child("ok").child("lng").set(lng);
+  firebase.database().ref().child("ok").child("lng").set(lon);
 
 
 }
